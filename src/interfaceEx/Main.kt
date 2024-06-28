@@ -75,4 +75,12 @@ class User(name: String) : Person(name), A, B {
     override fun getYear() {
 
     }
+
+    override fun toString(): String {
+        return "To string"
+    }
+
+    companion object {
+
+    }
 }
