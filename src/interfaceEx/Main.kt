@@ -42,7 +42,7 @@ abstract class Person(name: String) : Company() {
     }
 }
 
-class User(name: String) : Person(name), A, B {
+open class User(name: String) : Person(name), A, B {
     override val age: Int
         get() = 20
 
